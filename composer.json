@@ -4,7 +4,8 @@
     "type": "metapackage",
     "description": "Install M2 Patches",
     "require": {
-        "netresearch/composer-patches-plugin": "^1.0.0"
+        "netresearch/composer-patches-plugin": "^1.0.0",
+        "magento/magento2-base": "2.2.6"
     },
     "extra": {
         "patches": {
