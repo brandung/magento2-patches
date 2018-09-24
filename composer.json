@@ -5,18 +5,10 @@
     "description": "Install M2 Patches",
     "require": {
         "netresearch/composer-patches-plugin": "^1.0.0",
-        "magento/magento2-base": "2.2.6"
+        "magento/magento2-base": "^2.0.0"
     },
     "extra": {
         "patches": {
-            "magento/module-catalog":     {
-                "102.0.6": [
-                    {
-                        "title": "https://github.com/magento/magento2/issues/18154",
-                        "url": "https://raw.githubusercontent.com/brandung/magento2-patches/master/patches/magento/module-catalog/Patch-Magento-Catalog-M2.2.6-fix-18154-tierprices-cant-be-updated.patch"
-                    }
-                ]
-            }
         }
     }
 }
