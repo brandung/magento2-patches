@@ -1,8 +1,3 @@
-Index: Model/Product/Attribute/Backend/TierPrice/UpdateHandler.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
 --- Model/Product/Attribute/Backend/TierPrice/UpdateHandler.php	(revision 1804146a601561685f54c920bf869b3f2398cb9e)
 +++ Model/Product/Attribute/Backend/TierPrice/UpdateHandler.php	(date 1537531110000)
 @@ -83,7 +83,7 @@
@@ -13,12 +8,6 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 +            $isGlobal = $attribute->isScopeGlobal() || $this->isWebsiteGlobal((int)$websiteId);
              $identifierField = $this->metadataPoll->getMetadata(ProductInterface::class)->getLinkField();
              $productId = $entity->getData($identifierField);
- 
-Index: Model/Product/Attribute/Backend/TierPrice/SaveHandler.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
 --- Model/Product/Attribute/Backend/TierPrice/SaveHandler.php	(revision 1804146a601561685f54c920bf869b3f2398cb9e)
 +++ Model/Product/Attribute/Backend/TierPrice/SaveHandler.php	(date 1537531110000)
 @@ -86,7 +86,7 @@
