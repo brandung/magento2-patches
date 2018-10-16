@@ -13,7 +13,7 @@
                 "https://github.com/magento/magento2/issues/18154": "https://raw.githubusercontent.com/brandung/magento2-patches/2.2.6/patches/magento/module-catalog/Patch-Magento-Catalog-M2.2.6-fix-18154-tierprices-cant-be-updated.patch"
             },
             "magento/zendframework1": {
-                "https://github.com/magento/magento2/issues/6146": "https://raw.githubusercontent.com/brandung/magento2-patches/2.2.6/patches/magento/module-catalog/magento-zf1-pull-15.patch"
+                "https://github.com/magento/magento2/issues/6146": "https://raw.githubusercontent.com/brandung/magento2-patches/2.2.6/patches/magento/zendframework1/magento-zf1-pull-15.patch"
             }
         }
     }
