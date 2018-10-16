@@ -1,5 +1,5 @@
---- library/Zend/Mail/Transport/Sendmail.php
-+++ library/Zend/Mail/Transport/Sendmail.php
+--- library/Zend/Mail/Transport/Sendmail.php    2018-10-16 11:39:39.000000000 +0200
++++ library/Zend/Mail/Transport/Sendmail.php    2018-10-16 11:39:34.000000000 +0200
 @@ -100,7 +100,8 @@
              $this->recipients,
              $this->_mail->getSubject(),
@@ -8,12 +8,14 @@
 +            $this->header,
 +            $this->_getAdditionalParameters());
          restore_error_handler();
-
+ 
          if ($this->_errstr !== null || !$result) {
 @@ -202,4 +203,18 @@
          return true;
      }
-
+ 
+-}
+\ No newline at end of file
 +    /**
 +     * The additional_parameters parameter can be used to pass additional flags as command line options to the program
 +     * configured to be used when sending mail, as defined by the sendmail_path configuration setting.
@@ -28,4 +30,5 @@
 +
 +        return null;
 +    }
- }
++}
+
