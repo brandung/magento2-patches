@@ -1,6 +1,6 @@
 --- library/Zend/Mail/Transport/Sendmail.php
 +++ library/Zend/Mail/Transport/Sendmail.php
-@@ -100,7 +100,8 @@ public function _sendMail()
+@@ -100,7 +100,8 @@
              $this->recipients,
              $this->_mail->getSubject(),
              $this->body,
@@ -10,7 +10,7 @@
          restore_error_handler();
 
          if ($this->_errstr !== null || !$result) {
-@@ -202,4 +203,18 @@ public function _handleMailErrors($errno, $errstr, $errfile = null, $errline = n
+@@ -202,4 +203,18 @@
          return true;
      }
 
