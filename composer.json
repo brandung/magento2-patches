@@ -5,12 +5,12 @@
     "description": "Install M2 Patches",
     "require": {
         "cweagans/composer-patches": "~1.0",
-        "magento/magento2-base": "2.2.8"
+        "magento/magento2-base": "2.3.2"
     },
     "extra": {
         "patches": {
             "magento/zendframework1": {
-                "https://github.com/magento/magento2/issues/6146": "https://raw.githubusercontent.com/brandung/magento2-patches/2.2.6/patches/magento/zendframework1/magento-zf1-pull-15.patch"
+                "https://github.com/magento/magento2/issues/6146": "https://raw.githubusercontent.com/brandung/magento2-patches/2.3.2/patches/magento/zendframework1/magento-zf1-pull-15.patch"
             }
         }
     }
